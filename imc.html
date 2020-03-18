@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>IMC</title>
+		<link rel="stylesheet" type="text/css" href="estilo/imc.css">
+		<link href="https://fonts.googleapis.com/css?family=Gorditas" rel="stylesheet">
+		<script type="text/javascript" src="imc.js"></script>
+		<link rel="icon" type="imagem/png" href="imc.png">
+	</head>
+	<body>
+		<header>
+				<center>
+					<img  id="inicio" src="mat.png">
+				</center>
+			</header>
+			<nav>
+				<ul>
+					<center>
+						<table border="0" id="tabelagata">
+							<td>
+								<img class="icon1" src="casa.png">
+								<a class="casa" id="efeitoA" href="home.html"><b>Home</b></a>
+							</td>
+							<td>
+								<img class="icon2" src="calculadora.png">
+								<a class="calc" id="efeitoA" href="Calculadora.html"><b>Calculadora</b></a>
+							</td>
+							<td>
+								<img class="icon3" src="imc.png">
+								<a class="imc" id="efeitoA" href="imc.html"><b>Imc</b></a>
+							</td>	
+						</table>				
+					</center>
+				</ul>
+			</nav>
+			<div class="tudoDoImc">
+					<center>
+						<header>
+							<table class="tabela" border="0">
+								<td><img src="imc.png" class="imc2"></td>
+								<td><h1 class="imcText">IMC</h1></td>
+							</table>
+						</header>
+					</center>
+					<center>
+						<a class="descubra" href="#calcule"> Descubra já o seu</a>
+						<table class="tabela2" border="0">
+							<td><img src="pensamento.png" class="pensando"></td>
+							<td><h1 class="titulo">O que é?</h1><p class="texto1">IMC significa Índice de Massa Corporal e trata-se de uma medida do peso de cada pessoa, sendo uma relação entre a massa da pessoa e a sua altura.</p></td>
+						</table>
+					</center>
+					<center>
+						<legend class="titulo" onclick="incialModal ('lousa');">Tabela IMC</legend>
+						<div id="lousa">
+							<img src="lousa2.png" class="lousaDeFundo">
+							<table class="tabela3" border="0">
+								<tr align="center">
+									<td >Resultado</td>
+									<td>Situação</td>
+								</tr>
+								<tr align="center">
+									<td class="ab">Abaixo de 17</td>
+									<td class="ab1">Muito abaixo do peso</td>
+								</tr>
+								<tr align="center">
+									<td>Entre 17 e 18.49</td>
+									<td>Abaixo do peso</td>
+								</tr>
+								<tr align="center">
+									<td>Entre 18,5 e 24,99</td>
+									<td>Peso normal</td>
+								</tr>
+								<tr align="center">
+									<td>Entre 25 e 29,99</td>
+									<td>Acima do peso</td>
+								</tr>
+								<tr align="center">
+									<td>Entre 30 e 34,99</td>
+									<td>Obesidade I</td>
+								</tr>
+								<tr align="center">
+									<td>Entre 35 e 39,99</td>
+									<td>Obesidade II (severa)</td>
+								</tr>
+								<tr align="center">
+									<td>Acima de 40</td>
+									<td>Obesidade III (Mórbida)</td>
+								</tr>
+							</table>
+						</div>
+					</center> <br> <br>
+					<center>
+					<div class="computerTabela">
+							<h1 class="CalculeImc">Calcule seu IMC</h1> <br> <br>
+					</center>
+							<center>
+								<img src="pc.png" style="width: 1000px; height:850px; margin-top: -800px;" >
+								<form action="imc.html" name="formImc" method="post">
+									<table border="0" id="calcule">
+										
+											<td><p class="peso" style="">Peso</p><br><input style="margin-left: 50px;" type="text" name="peso"></td>
+											<td ><p class="altura">altura</p>
+											 <br><input type="text" name="altura" style="margin-left: 20px;"></td>
+											<tr>
+												<td>
+													<a id="aviso"></a>
+												</td>
+												<td>
+													<a id="aviso2"></a>
+												</td>		
+											</tr>
+											<tr>
+											<td> <input style="margin-top: 50px;" class="botao" type="button" value="Calcular" onclick="calculoimc();"></td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<p style="margin-left: 205px; margin-top: 90px;">imc </p>
+												<input style="position: absolute; margin-left: 200px;" type="text" name="imc" readonly="true">
+											</td>
+										<tr/>
+										<tr>
+											<td colspan="4">
+												<p style="margin-top: 60px; margin-left: 100px;">Resultado</p>
+												 <input style="width: 400px; margin-left: 80px;position: absolute; font-size: 35px;" type="text" name="resultado" readonly="true">
+											</td>
+										</tr>
+									</table>
+								</form>
+							</center>
+						</div>
+						<a href="#inicio"><img class="maozinha" src="mao.png"></a>
+<hr style="margin-top: 50px;">
+		<center>
+			<footer>
+				<p>
+					Todos os direitos reservados à TecWorld Programacão Web 2019 <br>
+					By Leandro Vieira Lima, Samuel Rodrigues, José Wilker <br>
+				</p>
+				<table border="0">
+					<tr>
+						<td>Endereço : CE-Pacatuba, Jereissati II</td>
+						<td><a href="https://www.google.com.br/maps/place/EEEP+Professora+Luiza+de+Teodoro+Vieira/@-3.888221,-38.6162623,15z/data=!4m5!3m4!1s0x7c75381c019c3d5:0xc53cd84b288208b6!8m2!3d-3.8894097!4d-38.6097202"><img src="loca.png" style="width: 25px;"></a></td> 
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td>Página Facebook</td>
+						<td><a href="#"><img src="face.png" style="width: 25px;"></a></td>
+					</tr>
+				</table>
+			</footer>
+		</center>
+		<script type="text/javascript" src="imc.js">
+		
+		</script>
+	</body>
+</html>

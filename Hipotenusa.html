@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Hipotenusa</title>
+	<meta charset="utf-8">
+	<meta name="author" content="José Wilker Costa Lucena Pontes">
+	<link rel="stylesheet" type="text/css" href="hipo.css">
+	<link rel="icon" type="imagem/png" href="fotos/pitagoras.gif">
+	<script type="text/javascript">
+	
+		function Mudarestado(el) {
+  				var display = document.getElementById('el').style.display;
+  				if (display == "none"){
+    				document.getElementById('el').style.display = 'block';
+  				}else{
+    				document.getElementById('el').style.display = 'none';
+				}
+			}
+		function exp() {
+			
+			var a = document.getElementById('n1').value;
+			var b = document.getElementById('n2').value;
+			var h = document.getElementById('re').value.innerHTML = parseInt(a*a)+parseInt(b*b);
+			var resultado = Math.sqrt(h);
+			document.getElementById('re').value = resultado;
+
+		}
+			function Mudar(tc) {
+  				var display = document.getElementById('tc').style.display;
+  				if (display == "none"){
+    				document.getElementById('tc').style.display = 'block';
+  				}else{
+    				document.getElementById('tc').style.display = 'none';
+				}
+			}
+		function MudaQ2(q2) {
+  				var display = document.getElementById('q2').style.display;
+  				if (display == "none"){
+    				document.getElementById('q2').style.display = 'block';
+  				}else{
+    				document.getElementById('q2').style.display = 'none';
+				}
+			}
+		function Mudahis(his) {
+  				var display = document.getElementById('his').style.display;
+  				if (display == "none"){
+    				document.getElementById('his').style.display = 'block';
+  				}else{
+    				document.getElementById('his').style.display = 'none';
+				}
+			}
+
+	</script>
+
+</head> 
+<body>
+	<a href="#inicio"><img class="maozinha" src="mao.png"></a>
+
+		<div class="conteiner">
+
+		<header>
+			<center>
+				<img id="inicio" src="mat.png">
+			</center>
+		</header>
+		<nav>
+			<ul>
+				<center>
+				<table border="0" id="tabelagata">
+					
+						<td>
+							<img id="icon1" class="icon1" src="casa.png">
+							<a class="casa" id="efeitoA" href="home.html"><b>Home</b></a>
+						</td>
+							<td>
+							<img id="icon1" class="icon2" src="calculadora.png">
+							<a class="calc" id="efeitoA" href="Calculadora.html"><b>Calculadora</b></a>
+						</td>
+						<td>
+							<img id="icon1" class="icon3" src="imc.png">
+							<a class="imc" id="efeitoA" href="imc.html"><b>Imc</b></a>
+						</td>					
+					</center>
+				</table>
+			</ul>
+		</nav>
+
+		</div><br><br><br>
+
+	<div id="corpo">
+		<center>
+		<h1 style="font-family: arial">Teorema de Pitagoras</h1>
+		</center><br>
+
+				<h2>O Teorema de Pitágoras está relacionado com o comprimento dos lados do triângulo retângulo. Essa figura geométrica é formada por um ângulo interno de 90°, chamado de ângulo reto.<p>
+
+						O enunciado desse teorema é: "a soma dos quadrados de seus catetos corresponde ao quadrado de sua hipotenusa."</h2><br><br>
+
+						<h1>Fórmula:</h1><br>
+<h2>Segundo o enunciado do Teorema de Pitágoras, a fórmula é representada da seguinte maneira:<br><br><br>a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup></h2>
+
+	<h2><br>Sendo:<br><br>a: hipotenusa<br>b: cateto<br>c: cateto<h2>
+
+		<div style="width: 60%;margin: auto;margin-top: -250px; " >
+			<img style="" src="fotos/hi.jpg">
+		</div><br>
+
+
+			
+			<button style="background-color: white;border: white;font-size: 30px;" type="button" onclick="Mudahis('his')">+História</button><br>
+				
+				<div id="his" style="display: none;">
+					<br><br>
+					<h2 style="font-size: 30px;">O Teorema de Pitágoras é um dos teoremas mais conhecidos, importantes e utilizados na matemática. Ele é imprescindível na resolução de problemas da geometria analítica, geometria plana, geometria espacial e trigonometria.<p>
+
+Pitágoras de Samos, (570 a.C. - 495 a.C.) foi um filósofo e matemático grego, que fundou a Escola Pitagórica. Também chamada de Sociedade Pitagórica, incluía estudos de Matemática, Astronomia e Música.<p>
+
+Acredita-se que a primeira demonstração do teorema tenha sido feita pelos integrantes dessa escola, os chamados Pitagóricos, por isso o nome dado a esse teorema</h2>
+				<br><br><br>
+			<center>
+
+				<img id="imgp" src="fotos/pita.png">
+
+			</center>	<br><br>
+
+			<h2 style="font-size: 30px;">Pitágoras nasceu na ilha grega de Samos, na costa jônica, em 570 a.C. Estudou matemática, astronomia, música, literatura e filosofia na sua cidade natal.<p>
+
+Foi orientado na cidade grega de Mileto por um dos maiores filósofos pré-socráticos: Tales de Mileto.
+
+No entanto, suas ideias revolucionárias para a época o levaram a ser perseguido.<p> Nesse momento, mudou-se para Crotona (sul da Itália), região conhecida como Magna Grécia.
+
+Foi ali que fundou uma escola de caráter místico-filosófico que ficou conhecida como “Escola Pitagórica”.</h2>
+
+		<br>
+				</div>
+
+
+
+			<button style="background-color: white;border: white;font-size: 30px;" type="button" onclick="Mudarestado('el')">+Exercícios</button>
+			<br><br>
+			<div id="el" style="display:none; ">
+
+				<fieldset>
+					<center>
+					
+						<h1>Questão 01</h1><br><br>
+					</center>
+				
+					<h2 style="font-family: helvetica;font-size: 30px;">Um garoto observa uma coruja no alto de um poste de 4 metros de altura. A sombra projetada desse poste no chão possui comprimento de 3 metros naquele horário. Sabendo que o poste forma um ângulo de 90° com o solo, qual é a distância do garoto até a coruja?</h2><br>
+
+
+						<div id="tc" style="display: none; "> 
+								
+								<fieldset id="lousa" style="width: 50%; height: auto;margin: auto; border: 5px solid #8B4513; ">
+
+								
+									<br>Cateto<br>
+										<input class="cal" type="text" id="n1" name=""><br>
+
+									Cateto<br>
+										<input class="cal" type="text" id="n2" name="">
+										<input type="button" class="bc" onclick="exp(); "value="enviar"><br>
+									Hipotenusa<br>
+										<input class="cal" type="text" id="re" name="" >
+												<img src="fotos/pit.png" width="40%;" height="200px;" style=" margin: auto+300px; margin-top: -150px;">
+								</fieldset>
+									
+
+							</div>
+
+
+
+					<h3><br>A) 6<br><br>B) 10<br><br>C) 5<br><br>D) 7</h3>
+
+						<center>
+
+								<button class="btn btn-green" style="font-size: 30px;" type="button" onclick="Mudar('tc')">Calcule</button><br>		
+
+						</center>
+				</fieldset><br><br>
+
+				<fieldset>
+					<center>
+						<h1>Questão 02</h1><br><br>
+					</center>
+						<h2>Sabendo que um lado de um triângulo retângulo mede 9cm e o outro mede 12cm.Qual a medida do maior lado desse triângulo retângulo?</h2><br><br>
+
+							<div id="q2" style="display: none; "> 
+								
+								<fieldset id="lousa" style="width: 50%; height: auto;margin: auto; border: 5px solid #8B4513; ">
+
+								
+									<br>Cateto<br>
+										<input class="cal" type="text" id="n1" name=""><br>
+
+									Cateto<br>
+										<input class="cal" type="text" id="n2" name="">
+										<input type="button" class="bc" onclick="exp(); "value="enviar"><br>
+									Hipotenusa<br>
+										<input class="cal" type="text" id="re" name="" >
+												<img src="fotos/pit.png" width="40%;" height="200px;" style=" margin: auto+300px; margin-top: -150px;">
+								</fieldset>
+									
+
+							</div>
+
+
+
+
+						<h2 style="font-size: 30px;font-family: helvetica"><br><br>A) 3<br><br>B) 8<br><br>C) 15<br><br> D) 17</h2>
+
+						<center>
+
+								<button class="btn btn-green" style="font-size: 30px;" type="button" onclick="MudaQ2('q2')">Calcule</button><br>		
+
+						</center>
+
+				</fieldset>
+
+			</div>	
+
+	</div>
+
+					</center>
+<hr style="margin-top: 50px;">
+		<center>
+			<footer>
+				<p style="font-family:century gothic;color: #fff;">
+					Todos os direitos reservados à TecWorld Programacão Web 2019 <br>
+					By Leandro Vieira Lima, Samuel Rodrigues, José Wilker <br>
+				</p>
+				<table border="0">
+					<tr>
+						<td style="font-family:century gothic;color: #fff;">Endereço : CE-Pacatuba, Jereissati II</td>
+						<td><a href="https://www.google.com.br/maps/place/EEEP+Professora+Luiza+de+Teodoro+Vieira/@-3.888221,-38.6162623,15z/data=!4m5!3m4!1s0x7c75381c019c3d5:0xc53cd84b288208b6!8m2!3d-3.8894097!4d-38.6097202"><img src="loca.png" style="width: 25px;"></a></td> 
+					</tr>
+				</table>
+				<table>
+					<tr>
+						<td style="font-family:century gothic;color: #fff;">Página Facebook</td>
+						<td><a href="#"><img src="face.png" style="width: 25px;"></a></td>
+					</tr>
+				</table>
+			</footer>
+		</center>
+</body>
+</html>

@@ -1,0 +1,86 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-color: #088A68;
+}
+header {
+	height: 200px;
+	width: 100%;
+	background-image: url("mat.png");
+	background-repeat: no-repeat;
+	background-size: 90%;
+	padding-bottom: 50px;
+	background-position: center;
+}
+nav {
+	background-color: #FACC2E;
+	height: 100px;
+	width: 700px;
+	border:solid;
+}
+li {
+	float: left;
+	list-style: none;
+}
+li a {
+	color: #fff;
+	font-size: 30px;
+	text-decoration: none;
+	margin-left: 40px;
+	font-family: "Megrim";
+}
+.li1 {
+	position: absolute;
+	margin-left: 10px;
+}
+.li1:hover {
+	font-size: 35px;
+}
+.li2 {
+	position: absolute;
+	margin-left: 200px;
+}
+.li2:hover {
+	font-size: 35px;
+}
+.li3 {
+	position: absolute;
+	margin-left: 500px;
+}
+.li3:hover {
+	font-size: 35px;
+}
+img {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 40px;
+	cursor: pointer;
+}
+.img1 {
+	width: 60%;
+}
+.img1:hover {
+	width: 63%;
+}
+.img2 {
+	width: 32%;
+	margin-left: 70px;
+}
+.img2:hover {
+	width: 33%;
+}
+.img3 {
+	width: 95%;
+	margin-left: 25px;
+	margin-top: 26px;
+}
+.img3:hover {
+	width: 96%;
+}
+.button1 {
+	margin-left: 700px;
+	margin-top: -200px;
+} 
+

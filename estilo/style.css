@@ -1,0 +1,152 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0px;
+	padding: 10px 0;
+	background-color: #088A68;
+	font-family: Megrim;
+	overflow-x: hidden;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+
+header {
+	width: 80%;
+	height: 70vh;
+	text-align: justify-all;
+}
+
+.lousa {
+	background-image: url(lousa2.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 70vh;
+}
+
+a{
+	width: 15vw;
+	border: solid;
+	background-color: #987316;
+	text-decoration: none;
+	color: #fff;
+	border-radius: 10vw;
+	padding: 2vh;
+	margin-top: 20vh;
+	font-size: medium;
+	display: flex;
+	margin: 5vw;
+	height: auto;
+	text-align: justify-all;
+}
+
+.GrRa{
+	background-color: #fff;
+	width: 80%;
+	height: 60vh;
+	margin-right: 9.25vw;
+	margin-left: 9.25vw;
+	margin-top: 2vh;
+	border-style: solid;
+	border-radius: 1vw;
+	border-width: 0.5vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+p{
+	margin: 2vw;
+}
+
+.input{
+	border-style: solid;
+	height: 4vh;
+	font-size: small;
+	background-color: #B5B5B5;
+	width: 15vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+
+.conversorGR{
+	margin: 2vw;
+}
+.bnt{
+	background-color: #9C9C9C;
+	border-style: double;
+	border-color: #4F4F4F;
+	border-width: 0.5vw;
+	border-radius: 2vw;
+	padding: 1.5vh;
+	width: 10vw;
+}
+
+.temperatura{
+	background-color: #fff;
+	width: 80%;
+	height: 70vh;
+	margin-right: 9.25vw;
+	margin-left: 9.25vw;
+	margin-top: 2vh;
+	border-style: solid;
+	border-radius: 1vw;
+	border-width: 0.5vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+
+.temperatura img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.conversorT{
+	margin: 2vw;
+}
+
+.comprimento{
+	background-color: #fff;
+	width: 80%;
+	height: 70vh;
+	margin-right: 9.25vw;
+	margin-left: 9.25vw;
+	margin-top: 2vh;
+	border-style: solid;
+	border-radius: 1vw;
+	border-width: 0.5vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+
+.conversorC{
+	margin: 2vw;
+}
+
+.tempo{
+	background-color: #fff;
+	width: 80%;
+	height: 70vh;
+	margin-right: 9.25vw;
+	margin-left: 9.25vw;
+	margin-top: 2vh;
+	border-style: solid;
+	border-radius: 1vw;
+	border-width: 0.5vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+
+.conversorTempo{
+	margin: 2vw;
+}

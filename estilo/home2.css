@@ -1,0 +1,287 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+@font-face{
+	font-family: Megrim;
+	src: url('fonts/Megrim.ttf');
+}
+@font-face {
+	font-family: Alfa Slab One;
+	src: url('fonts/AlfaSlabOne-Regular.ttf');
+}
+body {
+	background-color: #088A68;
+	overflow-x: hidden;
+}
+header {
+	width: 100%;
+}
+nav {
+	border:solid black;
+	width: 100%;
+	height: 65px;
+	background-color: #FFBF00;
+	padding: 25px;
+	overflow: hidden;
+	font-family: Megrim;
+}
+ul a {
+	text-decoration: none;
+	font-size: 50px;
+	color: #000;
+}
+#efeitoA:hover {
+	transition: 2s;
+	font-size: 65px;
+	color: #585858;
+}
+#tabelagata {
+	width: 90%;
+}
+.icon1 {
+	width: 100px;
+	margin-top: -23px;
+}
+.casa {
+	position: absolute;
+	margin-top: 3px;
+}
+.icon2 {
+	width: 100px;
+	margin-top: -20px;
+	margin-left: 150px;
+}
+.calc {
+	position: absolute;
+}
+.icon3 {
+	width: 100px;
+	margin-top: -20px;
+	margin-left: 250px;
+}
+.imc {
+	margin-top: 3px;
+	position: absolute;
+}
+section {
+	width: 100%;
+	height: 950px;
+	background-image: url("verde.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 27px;
+} 
+.SubirTudo {
+	margin-top: -900px;
+}
+
+.contencao {
+	margin: 100px auto ;
+	width: 60%;
+	height: 500px;
+	background-color:  #000;
+	border-radius: 3%;
+	margin-top: -700px;
+}
+.tabelalinda {
+	margin-left: 90%;
+	font-size: 70px;
+	margin-top: -700px;
+	color: #fff;
+	font-family: "Alfa Slab One";
+}
+.td1 {
+	text-shadow: 7px 5px 5px black;
+	text-decoration: none;
+	color: #fff;
+}
+.td1:hover {
+	text-shadow: 7px 10px 10px black ;
+	transition: 3s;	
+	border-radius: 90%;
+	color: #DF3A01;
+	cursor: pointer;
+}
+.a {
+	background-color: green;
+}
+footer{
+	font-family: arial
+} 
+.bolinhas {
+	border:none;
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: rgba(44, 62, 80, .4);
+	outline: none;
+}
+#fundo{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, .8);
+	position: fixed;
+	display: none;
+}
+#fundo:target {
+	display: block;
+}
+#fundo:target ~ .formulario {
+	transition: 1s;
+	transition-delay: .2s; 
+	margin-top: 650px;
+}
+.formulario {
+	position: absolute;
+	margin-left: 33%;
+	margin-top: 25px;
+	font-size: 30px;
+	position: fixed;
+	left: 0;
+	top: -650px;
+}
+fieldset {
+	width: 500px;
+	color: #fff;
+	height: 600px;
+	border-radius: 3%;
+}
+.tableform {
+	width: 500px;
+}
+.inputsTable {
+	width: 300px;
+	height: 30px;
+	border-radius: 4%;
+	border:none;
+	background-color: #A9A9F5;
+}
+
+.buto {
+	width: 70px;
+	height: 30px;
+	font-size: 20px;
+	background-color: #088A4B;
+	border:none;
+	border-radius: 7%;
+}
+.buto:hover {
+	cursor: pointer;
+}
+#mostrarEsconder {
+	border-radius: 5%;
+	border:none;
+	font-size: 10px;
+	position: absolute;
+	margin-left: -45px;
+	margin-top: 25px;
+	background-color: #084B8A;
+}
+#mostrarEsconder2 {
+	border-radius: 5%;
+	border:none;
+	font-size: 10px;
+	position: absolute;
+	margin-left: -45px;
+	margin-top: 25px;
+	background-color: #084B8A;
+}
+footer {
+	color: #fff;
+	font-family: century gothic;
+}
+.coment {
+	position: absolute;
+	margin-top: -50px;
+	margin-left: 30%;
+	font-size: 20px;
+}
+.sair {
+	font-size: 30px;
+	position: absolute;
+	top: 0px;
+	right: 1%;
+}
+#resenha {
+	background-color:#0B3B39;
+	height: 150px;
+	width: 25%;
+	margin-left: 38%;
+	display: none;
+	position: absolute;
+}
+#resenha:target {
+	display: block;
+}
+.iconeComent {
+	 width: 40px;
+	 position: absolute;
+	 left: 59%;
+	 margin-top: -10px;
+}
+.iconeComent:hover {
+	cursor: pointer;
+	width: 45px;
+}
+textarea {
+	border-radius: 6%;
+	width: 70%;
+}
+.estrelas {
+	margin-left: 37%;
+}
+.estrela1:hover {
+	color: yellow;
+	cursor: pointer;
+}
+.estrela2:hover {
+	color: yellow;
+	cursor: pointer;
+}
+.estrela3:hover {
+	color: yellow;
+	cursor: pointer;
+}
+.estrela4:hover {
+	color: yellow;
+	cursor: pointer;
+}
+.estrela5:hover {
+	color: yellow;
+	cursor: pointer;
+}
+#obrigado {
+	margin-left: 40%;
+}
+.buttoResenha {
+	margin-top: 20px;
+	margin-left: 125px;
+	background-color: #088A4B;
+	border:none;
+	width: 60px;
+	height: 25px;
+	font-size: 15px;
+	border-radius: 5%;
+}
+.buttoResenha:hover {
+	cursor: pointer;
+}
+.logout {
+	width: 90px;
+	margin-top: -10px;
+	position: absolute;
+	margin-left: -90px;
+}
+.logout:hover {
+	width: 95px;
+	transition: 1s;
+} 
+.nomeSair:hover {
+	transition: 1s;
+	text-decoration: underline;
+	color: #2ECCFA;
+
+}

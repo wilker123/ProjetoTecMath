@@ -1,0 +1,75 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face{
+	font-family: Megrim;
+	src: url('fonts/Megrim.ttf');
+}
+
+body{
+	background-color: #088A68;
+}
+
+nav {
+	border:solid black;
+	width: 100%;
+	background-color: #FFBF00;
+	overflow: hidden;
+	font-family: Megrim;
+	padding: 1vh;
+	margin-bottom: 10vh;
+}
+
+nav img{
+	max-width: 100%;
+	max-height: 100%;
+	width: 17vh;
+	vertical-align: middle;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 40px;
+	color: #000;
+	vertical-align: middle;
+	font-family: Megrim;
+	margin-right: 10vw;
+}
+
+section{
+	background-color: #fff;
+	width: 80%;
+	height: 70vh;
+	margin-right: 9.25vw;
+	margin-left: 9.25vw;
+	margin-top: 2vh;
+	border-style: solid;
+	border-radius: 1vw;
+	border-width: 0.5vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+}
+
+p{
+	margin: 1vw;
+}
+
+img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+input{
+	border-style: solid;
+	height: 4vh;
+	font-size: small;
+	background-color: #B5B5B5;
+	width: 15vw;
+	width: auto;
+	height: auto;
+	text-align: justify-all;
+	padding: 0.5vh;
+}

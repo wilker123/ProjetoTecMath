@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #0B614B;
+	font-family: "Kosugi";
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+header{
+	position: fixed;
+	background-color: #0B3B24;
+	height: 200px;
+	border-style: solid;
+	border-color: #8A4B08;
+	border-width: 20px;
+	border-radius: 5px;
+	font-family: Megrim;
+	font-size: 200px;
+	text-align: center;
+	color: #A4A4A4;
+	margin-top: -800px;
+	width: 100%;
+	
+	}
+.contencao {
+	margin: 100px auto ;
+	width: 70%;
+	height: 600px;
+	background-color:  #000;
+	border-radius: 3%;
+	margin-top: 800px;
+}
+#imagemum {
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	transition: 1s;
+	border-radius: 3%;
+	cursor: pointer;
+}
+.anterior, .proximo  {
+	margin-top: -426px;
+	width: 65px;
+	height: 120px;
+	background-color: rgba(44, 62, 80, .4);
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+	line-height: 120px;
+	cursor: pointer;
+}
+.anterior {
+	float: left;
+}
+.proximo {
+	float: right;
+}
+.proximo:hover {
+	background-color: rgba(44, 62, 80, .6);	
+}
+.anterior:hover {
+	background-color: rgba(44, 62, 80, .6);		
+}
+.botoes {
+	background-color: silver;
+	margin-top: -1100px;
+	width: 50%;
+	height: 322px;
+	padding-top: 71px;
+	margin-left: 340px;
+	background-image:url("lousa.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border-radius: 2%;
+}
+.escolha {
+	margin-top: -20px;
+	font-size: 70px;
+	color: #fff;
+	font-family:Gloria Hallelujah;
+	margin-left: 310px;
+}
+button {
+	color: #fff;
+	background-color: #FE9A2E;
+	border: none;
+	width: 260px;
+	height: 55px;
+	border-radius: 100%;
+	font-size: 20px;
+	font-family:Gloria Hallelujah;
+	cursor: pointer;
+
+}
+.button1:hover {
+	position: relative;
+	width: 270px;
+	height: 60px;
+	background-color: #B45F04;
+}
+.button2:hover {
+	position: relative;
+	width: 270px;
+	height: 60px;
+	background-color: #B45F04;
+}
+.button3:hover {
+	position: relative;
+	width: 270px;
+	height: 60px;
+	background-color: #B45F04;
+}
+.button4:hover {
+	position: relative;
+	width: 270px;
+	height: 60px;
+	background-color: #B45F04;
+}
+.button5:hover {
+	position: relative;
+	width: 270px;
+	height: 60px;
+	background-color: #B45F04;
+}
+.button6:hover {
+	position: relative;
+	width: 270px;
+	height: 60px;
+	background-color: #B45F04;
+}
+.lapis {
+	width: 330px;
+	height: 350px;
+	background-image: url("lapis.png");
+	margin-top: -350px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+
+}
+.math {
+	font-family: Megrim;
+	margin-left: 1200px;
+	font-size: 120px;
+	margin-top: -450px;
+	color: #fff;
+}
+footer {
+	margin-top: 650px;
+	text-align: center;
+}

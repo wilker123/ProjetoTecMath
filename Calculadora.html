@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Calculadora</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="calc.css">
+	<link rel="icon" type="imagem/png" href="calculadora.png">
+	 <script type="text/javascript">
+
+            function botao(valor) {
+                  document.getElementById('visor').value += valor;
+            }
+            function calcular() {
+                  var resultado = 0;
+                  resultado = document.getElementById('visor').value;
+                  
+                  document.getElementById('visor').value = eval(resultado,);
+            }
+
+            function limpar() {
+                  document.getElementById('visor').value = '';
+            }
+           	function Mudarestado(el) {
+  				var display = document.getElementById('el').style.display;
+  				if (display == "none"){
+    				document.getElementById('el').style.display = 'block';
+  				}else{
+    				document.getElementById('el').style.display = 'none';
+				}
+			}
+			
+      
+      </script>
+
+</head>
+ <body>
+ 	<a href="#inicio"><img class="maozinha" src="mao.png"></a>
+	<div class="conteiner">
+		<header>
+			<center>
+				<img id="inicio" src="mat.png">
+			</center>
+		</header>
+		<nav>
+			<ul>
+				<center>
+				<table border="0" id="tabelagata">
+					
+						<td>
+							<img id="icon1" class="icon1" src="casa.png">
+							<a class="casa" id="efeitoA" href="home.html"><b>Home</b></a>
+						</td>
+							<td>
+							<img id="icon1" class="icon2" src="calculadora.png">
+							<a class="calc" id="efeitoA" href="#"><b>Calculadora</b></a>
+						</td>
+						<td>
+							<img id="icon1" class="icon3" src="imc.png">
+							<a class="imc" id="efeitoA" href="imc.html"><b>Imc</b></a>
+						</td>					
+					</center>
+				</table>
+			</ul>
+		</nav>
+
+		</div><br><br><br>
+			
+		<div id="corpo"><br>
+
+				<h1 style="font-size: 300%;font-family: arial; text-align: center;">CALCULADORA PADRÃO</h1>
+		<center>
+
+					<div id="fun"><br><br>	
+
+				 <fieldset id="fiel">
+				 	
+			<br><br>
+      				<input type="text"  name="" id="visor" placeholder="0" >
+      		
+      <br><br>
+
+     				
+      				<input  class="button" type="button" value="7" onclick="botao(7);">
+      				<input  class="button" type="button" value="8" onclick="botao(8)">
+      				<input  class="button" type="button" value="9" onclick="botao(9)">
+      				<input  class="button" type="button" value="+" onclick="botao('+')">
+      <br><br>
+      				<input  class="button" type="button" value="4" onclick="botao(4)">
+      				<input  class="button" type="button" value="5" onclick="botao(5)">
+      				<input  class="button" type="button" value="6" onclick="botao(6)">
+      				<input  class="button" type="button" value="/" onclick="botao('/')">
+      <br><br>
+     				 <input  class="button" type="button" value="1" onclick="botao(1)">
+      				 <input  class="button" type="button" value="2" onclick="botao(2)">
+      				 <input  class="button" type="button" value="3" onclick="botao(3)">
+      				 <input  class="button" type="button" value="*" onclick=" botao('*')">
+
+      <br><br>
+  	
+    				 <input  class="button" type="button" value="C" onclick="limpar()">
+     				 <input  class="button" type="button" value="0" onclick="botao(0)">
+     				 <input  class="button" type="button" value="=" onclick="calcular(value)">
+      				 <input  class="button" type="button" value="-" onclick="botao('-')">
+
+      				
+      
+      <br><br>
+
+
+	   				
+    			</fieldset>
+  
+    		<button class="btn btn-green" type="button" onclick="Mudarestado('el')">Informações</button><br>
+			
+			<div id="el" style="display:none; ">
+
+				<h2>Se você é matemática inclinado ou não, inevitavelmente, você vai precisar de uma calculadora para certos problemas relacionados com a matemática .<p> Todas as versões do Windows 7 vem com uma calculadora, o que significa que se você estiver usando o Windows 7 Home ou Ultimate, você tem uma calculadora à sua disposição a qualquer momento.<p><br>Instruções 
+1<br><p>
+Abra o menu "Iniciar" , clique no botão "Iniciar" no canto inferior esquerdo da sua tela.<p> Uma vez que o menu " Start" abre , observe uma caixa de pesquisa na parte inferior. Tipo "Calculadora" sem as aspas na caixa.<p><br> 
+Instrução 2:<p>
+
+Pressione "Enter" no seu teclado. <p><br>
+Instrução 3:<p>
+
+A calculadora do Windows 7 irá aparecer em seu tela. Clique em um botão na calculadora para executar a ação. Por exemplo, se você clicar em "1", você vai ver " um " aparecem.<p><br> 
+Instrução 4<p>
+
+Clique em "Exibir " para alterar a configuração do botão. Por padrão, a calculadora utiliza a configuração padrão. Altere a vista para científica , programador ou estatísticas. Também permitirá a conversão de unidade , o cálculo de dados e planilhas.<p> Clique em "Editar " para copiar ou colar os resultados da calculadora para uma planilha, ou vice- versa. 
+
+</h2>
+				
+		 
+		</div><br>
+
+	</div>
+
+				</center>
+
+				<br><br>
+		<hr>
+	<center>
+	<footer>
+		<p style="font-family: arial">
+			Todos os direitos reservados à TecWorld Programacão Web 2019 <br>
+			By Leandro Vieira Lima, Samuel Rodrigues, José Wilker <br>
+		</p>
+		<table border="0">
+			<tr>
+				<td style="font-family: arial">Endereço : CE-Pacatuba, Jereissati II</td>
+				<td><a href="https://www.google.com.br/maps/place/EEEP+Professora+Luiza+de+Teodoro+Vieira/@-3.888221,-38.6162623,15z/data=!4m5!3m4!1s0x7c75381c019c3d5:0xc53cd84b288208b6!8m2!3d-3.8894097!4d-38.6097202"><img src="loca.png" style="width: 25px;"></a></td> 
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td style="font-family: arial">Página Facebook</td>
+				<td><a href="#"><img src="face.png" style="width: 25px;"></a></td>
+			</tr>
+		</table>
+	</footer>
+	</center>
+
+	
+
+</body>
+</html>		

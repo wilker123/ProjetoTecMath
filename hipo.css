@@ -1,0 +1,146 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: #088A68;
+	font-family: Megrim;
+	overflow-x: hidden;
+
+}
+@font-face {
+	font-family: Megrim;
+	src: url('Megrim.ttf');
+}
+html {
+	scroll-behavior: smooth;
+}
+#menu{
+	width: 100;
+	height: auto;
+}
+header {
+	width: 100%;
+}
+nav {
+	border:solid black;
+	width: 100%;
+	height: 65px;
+	background-color: #FFBF00;
+	padding: 25px;
+	overflow: hidden;
+	font-family: Megrim;
+}
+ul a {
+	text-decoration: none;
+	font-size: 50px;
+	color: #000;
+}
+#efeitoA:hover {
+	transition: 2s;
+	font-size: 65px;
+	color: #585858;
+}
+#tabelagata {
+	width: 90%;
+}
+.icon1 {
+	width: 100px;
+	margin-top: -23px;
+}
+.casa {
+	position: absolute;
+	margin-top: 3px;
+}
+.icon2 {
+	width: 100px;
+	margin-top: -20px;
+	margin-left: 150px;
+}
+.calc {
+	position: absolute;
+}
+.icon3 {
+	width: 100px;
+	margin-top: -20px;
+	margin-left: 250px;
+}
+.imc {
+	margin-top: 3px;
+	position: absolute;
+}
+#corpo{
+	border: 10px solid black;
+	border-radius: 50px;
+	position: relative;
+	width: 80%;
+	height: auto;
+	margin: auto;	
+	background-color: white;
+	overflow: hidden;
+	padding: 20px;
+}
+h2{
+	text-indent: 70px;
+	text-align: justify;
+	font-family: arial
+}
+.btn{
+  font-family: arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn-green{
+	 padding:5px 15px 5px 15px;
+   	text-decoration: none;            
+    position:relative;
+    margin:10px;
+    padding:20px 28px;
+	border-radius:16px;
+	font-family: arial;
+	background-color: green;
+	color: #fff;
+	box-shadow: 0 5px 0 #003000;
+
+}
+.btn-green:hover{
+	background: black;
+	color: #fff;
+	box-shadow: 0 5px 0 #003f00;
+}
+.btn-green:active{
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+}
+.cal{
+	font-size: 20px;
+	border-radius: 10px;
+	border: 5px solid black
+}
+.bc{
+	  font-family: arial;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  cursor: pointer;
+  border-radius:20px;
+}
+.bc:houver{
+	background-color: black;
+}
+#lousa{
+	background-color: #088A68;
+	border-radius: 20px;
+}
+.maozinha {
+	width: 50px;
+	position: fixed;
+	bottom: 0;
+	margin-left: 95%;
+}
